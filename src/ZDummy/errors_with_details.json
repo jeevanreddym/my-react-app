@@ -1,0 +1,25 @@
+{
+    "errors": [
+        {
+            "namespace": "cxp-browse-domain",
+            "name": "VALIDATION_ERROR",
+            "id": "3000",
+            "debug_id": "2020-01-08T18:57:42.+0000:8e5b119d-ae3c-4532-8c67-4e325c7d8f41:cxp-browse-domain-qa-ev6v-qa-nsq2cxp-7ffd584ff5-g7h7x",
+            "message": "Invalid data provided",
+            "details": [
+                {
+                    "field": "sorId",
+                    "value": "",
+                    "issue": "Device sorId is not provided for newLine1",
+                    "location": "/data/lines/deviceInfo/sorId"
+                },
+                {
+                    "field": "cartItem",
+                    "value": "",
+                    "issue": "Cart does not have device CartItem for newLine1",
+                    "location": "cart/lineDetails/lineInfo/itemsInfo/cartItems/cartItem"
+                }
+            ]
+        }
+    ]
+}

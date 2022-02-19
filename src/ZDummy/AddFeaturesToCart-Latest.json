@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "client": "CXP"
+    },
+    "data": {
+        "cartId": "8c5fa64a-9811-4eb8-85cd-b5939cae298b",
+        "action": "UPDATE",
+        "itemType": "FEATURE",
+        "intendType": "EUP",
+        "account": {
+            "features": {
+                "add": [
+                    {
+                        "id": "1167",
+                        "actionIndicator": "D",
+                        "type": "SPO",
+                        "mtns": [
+                            {
+                                "mtn": "4563458762"
+                            },
+                            {
+                                "mtn": "4563458761"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "1167",
+                        "actionIndicator": "D",
+                        "type": "SPO",
+                        "mtns": [
+                            {
+                                "mtn": "4563458762"
+                            },
+                            {
+                                "mtn": "4563458761"
+                            }
+                        ]
+                    }
+                ],
+                "remove": [
+                    {
+                        "id": "1543",
+                        "type": "SPO",
+                        "mtns": [
+                            {
+                                "mtn": "4563458762"
+                            },
+                            {
+                                "mtn": "4563458761"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mcsSubscription": {
+                "add": [
+                    {
+                        "itemId": "307220145",
+                        "actionIndicator": "D",
+                        "pricePlanId": "35550960",
+                        "price": 10.0,
+                        "name": "DigitalSecure",
+                        "description": "DigitalSecure"
+                    }
+                ],
+                "remove": [
+                    {
+                        "itemId": "307220145",
+                        "pricePlanId": "35550960",
+                        "price": 10.0,
+                        "name": "DigitalSecure",
+                        "description": "DigitalSecure"
+                    }
+                ]
+            }
+        },
+        "lines": [
+            {
+                "mtn": "2158806687",
+                "features": {
+                    "add": [
+                        {
+                            "id": "78732",
+                            "quantity": 1,
+                            "actionIndicator": "D",
+                            "type": "SFO"
+                        },
+                        {
+                            "id": "78733",
+                            "quantity": 1,
+                            "actionIndicator": "A",
+                            "type": "SPO"
+                        }
+                    ],
+                    "remove": [
+                        {
+                            "id": "78734",
+                            "quantity": 1,
+                            "type": "SPO"
+                        }
+                    ]
+                },
+                "mcsSubscription": {
+                    "add": [
+                        {
+                            "itemId": "307220145",
+                            "actionIndicator": "D",
+                            "pricePlanId": "35550960",
+                            "price": 10.0,
+                            "name": "DigitalSecure",
+                            "description": "DigitalSecure"
+                        }
+                    ],
+                    "remove": [
+                        {
+                            "itemId": "307220145",
+                            "pricePlanId": "35550960",
+                            "price": 10.0,
+                            "name": "DigitalSecure",
+                            "description": "DigitalSecure"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

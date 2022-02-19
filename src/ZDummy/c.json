@@ -1,0 +1,319 @@
+
+{
+    "account": {
+        "plans": [
+            {
+                "planId": "26872",
+                "displayName": "START UNLIMITED",
+                "shortName": "",
+                "imageurl": "https://ss7.vzw.com/is/image/VerizonWireless/Start_Unlimited_0519",
+                "recommendationInfo": {
+                    "reasonsForTheRecommendation": [
+                        "This line in particular is",
+                        "Based on this line's information, we think START UNLIMITED is the perfect plan for you."
+                    ],
+                    "topLevelRecommendations": [
+                        "Looks like your account reached its max data limit recently.",
+                        "Your device is 5G compatible. Have you thought about moving to one of our new Unlimited plans?",
+                        "Based on your account information, we think we have the perfect plan for you."
+                    ]
+                },
+                "planFeatures": [
+                    {
+                        "featureId": 10060,
+                        "name": "Unlimited 4G LTE data"
+                    },
+                    {
+                        "featureId": 10065,
+                        "name": "480p DVD-Quality Streaming"
+                    },
+                    {
+                        "featureId": 10071,
+                        "name": "Apple Music Free for 6 Months"
+                    },
+                    {
+                        "featureId": 10076,
+                        "name": "Unlimited Talk & Text"
+                    },
+                    {
+                        "featureId": 10077,
+                        "name": "Mexico & Canada Talk, Text & Data"
+                    },
+                    {
+                        "featureId": 10069,
+                        "name": "International Texting"
+                    },
+                    {
+                        "featureId": 10078,
+                        "name": "Verizon Up Rewards"
+                    }
+                ],
+                "eligibleMtns": [],
+                "price": {
+                    "regularPrice": 0.0,
+                    "discountedPrice": 0.0
+                },
+                "showcase": true,
+                "isDisabled": false,
+                "isSelectedPlan": false,
+                "isRecommendedPlan": true
+            }
+        ]
+    },
+    "lines": [
+        {
+            "mtn": "5708813721",
+            "plans": [
+                {
+                    "planId": "26872",
+                    "displayName": "START UNLIMITED",
+                    "shortName": "",
+                    "imageurl": "https://ss7.vzw.com/is/image/VerizonWireless/Start_Unlimited_0519",
+                    "recommendationInfo": {
+                        "reasonsForTheRecommendation": [
+                            "This line in particular is",
+                            "Based on this line's information, we think START UNLIMITED is the perfect plan for you."
+                        ],
+                        "topLevelRecommendations": [
+                            "Looks like your account reached its max data limit recently.",
+                            "Your device is 5G compatible. Have you thought about moving to one of our new Unlimited plans?",
+                            "Based on your account information, we think we have the perfect plan for you."
+                        ]
+                    },
+                    "planFeatures": [
+                        {
+                            "featureId": 10060,
+                            "name": "Unlimited 4G LTE data"
+                        },
+                        {
+                            "featureId": 10065,
+                            "name": "480p DVD-Quality Streaming"
+                        },
+                        {
+                            "featureId": 10071,
+                            "name": "Apple Music Free for 6 Months"
+                        },
+                        {
+                            "featureId": 10076,
+                            "name": "Unlimited Talk & Text"
+                        },
+                        {
+                            "featureId": 10077,
+                            "name": "Mexico & Canada Talk, Text & Data"
+                        },
+                        {
+                            "featureId": 10069,
+                            "name": "International Texting"
+                        },
+                        {
+                            "featureId": 10078,
+                            "name": "Verizon Up Rewards"
+                        }
+                    ],
+                    "eligibleMtns": [],
+                    "price": {
+                        "regularPrice": 0.0,
+                        "discountedPrice": 0.0
+                    },
+                    "showcase": true,
+                    "isDisabled": false,
+                    "isSelectedPlan": false,
+                    "isRecommendedPlan": true
+                }
+            ]
+        },
+        {
+            "mtn": "5708816645",
+            "plans": [
+                {
+                    "planId": "26872",
+                    "displayName": "START UNLIMITED",
+                    "shortName": "",
+                    "imageurl": "https://ss7.vzw.com/is/image/VerizonWireless/Start_Unlimited_0519",
+                    "recommendationInfo": {
+                        "reasonsForTheRecommendation": [
+                            "This line in particular is",
+                            "Based on this line's information, we think START UNLIMITED is the perfect plan for you."
+                        ],
+                        "topLevelRecommendations": [
+                            "Looks like your account reached its max data limit recently.",
+                            "Your device is 5G compatible. Have you thought about moving to one of our new Unlimited plans?",
+                            "Based on your account information, we think we have the perfect plan for you."
+                        ]
+                    },
+                    "planFeatures": [
+                        {
+                            "featureId": 10060,
+                            "name": "Unlimited 4G LTE data"
+                        },
+                        {
+                            "featureId": 10065,
+                            "name": "480p DVD-Quality Streaming"
+                        },
+                        {
+                            "featureId": 10071,
+                            "name": "Apple Music Free for 6 Months"
+                        },
+                        {
+                            "featureId": 10076,
+                            "name": "Unlimited Talk & Text"
+                        },
+                        {
+                            "featureId": 10077,
+                            "name": "Mexico & Canada Talk, Text & Data"
+                        },
+                        {
+                            "featureId": 10069,
+                            "name": "International Texting"
+                        },
+                        {
+                            "featureId": 10078,
+                            "name": "Verizon Up Rewards"
+                        }
+                    ],
+                    "eligibleMtns": [],
+                    "price": {
+                        "regularPrice": 0.0,
+                        "discountedPrice": 0.0
+                    },
+                    "showcase": true,
+                    "isDisabled": false,
+                    "isSelectedPlan": false,
+                    "isRecommendedPlan": true
+                }
+            ]
+        },
+        {
+            "mtn": "5708921354",
+            "plans": [
+                {
+                    "planId": "26911",
+                    "displayName": "DO MORE UNLIMITED",
+                    "shortName": "",
+                    "imageurl": "https://ss7.vzw.com/is/image/VerizonWireless/Do_More_Unlimited_0519",
+                    "recommendationInfo": {
+                        "reasonsForTheRecommendation": [
+                            "Based on this line's information, we think DO MORE UNLIMITED is the perfect plan for you."
+                        ],
+                        "topLevelRecommendations": [
+                            "Looks like your account reached its max data limit recently.",
+                            "Your device is 5G compatible. Have you thought about moving to one of our new Unlimited plans?",
+                            "Based on your account information, we think we have the perfect plan for you."
+                        ]
+                    },
+                    "planFeatures": [
+                        {
+                            "featureId": 10057,
+                            "name": "Unlimited 5G Ultra Wideband Data"
+                        },
+                        {
+                            "featureId": 10059,
+                            "name": "Unlimited 5G Ultra Wideband Mobile Hotspot"
+                        },
+                        {
+                            "featureId": 10058,
+                            "name": "Unlimited 4K HD-Quality Streaming"
+                        },
+                        {
+                            "featureId": 10062,
+                            "name": "Unlimited 4G LTE data (+50 GB Premium Data)"
+                        },
+                        {
+                            "featureId": 10070,
+                            "name": "Unlimited Mobile Hotspot (15GB of 4G LTE)"
+                        },
+                        {
+                            "featureId": 10065,
+                            "name": "480p DVD-Quality Streaming"
+                        },
+                        {
+                            "featureId": 10071,
+                            "name": "Apple Music Free for 6 Months"
+                        },
+                        {
+                            "featureId": 10068,
+                            "name": "50% off a Tablet or Jetpack Unlimited Plan"
+                        },
+                        {
+                            "featureId": 10073,
+                            "name": "500 GB of Verizon Cloud Storage"
+                        },
+                        {
+                            "featureId": 10076,
+                            "name": "Unlimited Talk & Text"
+                        },
+                        {
+                            "featureId": 10077,
+                            "name": "Mexico & Canada Talk, Text & Data"
+                        },
+                        {
+                            "featureId": 10069,
+                            "name": "International Texting"
+                        },
+                        {
+                            "featureId": 10078,
+                            "name": "Verizon Up Rewards"
+                        }
+                    ],
+                    "eligibleMtns": [],
+                    "price": {
+                        "regularPrice": 0.0,
+                        "discountedPrice": 0.0
+                    },
+                    "showcase": true,
+                    "isDisabled": false,
+                    "isSelectedPlan": false,
+                    "isRecommendedPlan": true
+                }
+            ]
+        },
+        {
+            "mtn": "5708921676",
+            "plans": [
+                {
+                    "planId": "18056",
+                    "displayName": "UNLIMITED PLAN",
+                    "shortName": "",
+                    "imageurl": "https://ss7.vzw.com/is/image/VerizonWireless/Unlimited_0719",
+                    "recommendationInfo": {
+                        "reasonsForTheRecommendation": [
+                            "Based on this line's information, we think UNLIMITED PLAN is the perfect plan for you."
+                        ],
+                        "topLevelRecommendations": [
+                            "Looks like your account reached its max data limit recently.",
+                            "Your device is 5G compatible. Have you thought about moving to one of our new Unlimited plans?",
+                            "Based on your account information, we think we have the perfect plan for you."
+                        ]
+                    },
+                    "planFeatures": [
+                        {
+                            "featureId": 10017,
+                            "name": "Premium Unlimited 4G LTE Data (15GB)"
+                        },
+                        {
+                            "featureId": 10030,
+                            "name": "Unlimited Talk & Text"
+                        },
+                        {
+                            "featureId": 10032,
+                            "name": "HD-Quality Streaming (720p)"
+                        },
+                        {
+                            "featureId": 10019,
+                            "name": "Unlimited Mobile Hotspot (15GB) At 4G LTE"
+                        }
+                    ],
+                    "eligibleMtns": [],
+                    "price": {
+                        "regularPrice": 10.0,
+                        "discountedPrice": 0.0
+                    },
+                    "showcase": true,
+                    "isDisabled": false,
+                    "isSelectedPlan": false,
+                    "isRecommendedPlan": true
+                }
+            ]
+        }
+    ]
+}

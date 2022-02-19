@@ -1,0 +1,293 @@
+{
+
+    "cmp" : {
+        "all"   : "Marketing campaign Code",
+        "first30" : "",
+        "ids"     : "",
+        "last90"  : ""
+    },
+    "com" : {
+        "zip" : ""
+    },
+    "dfa" : {
+        "ad"       : "",
+        "error"    : "",
+        "view"     : "",
+        "viewTime" : ""
+    },
+    "env" : {
+        "businessUnit" : "",- AEM
+        "domain"       : ""
+    },
+
+    "error" : {
+        "code"    : error code|error message
+    },
+
+    "page" : {
+        "article"        : "",
+        "Type"           : If error or applicable only on AEM Pages
+        "channelSession" : Dotcom session ID
+        "detail"         :
+        "displayChannel" : Dotcom,
+        "flow"           : Deviceconfig, plans, cart, checkout, Orderconfirmation,
+        "name"           : pagename,
+        "sourceChannel"  : MVA/MVO/Dotcom,
+        "url"            : Entire URL including query string,
+        "event"          : "", - React
+        "subFlow"        : "", - React
+        "type"           : "",
+        "Link"            : "", - AEM
+        "visitNumber"    : ""
+    },
+
+    "search" : {
+        "term"      : "",  - AEM
+        "results"   : "",
+        "Filter"    : "",
+        "SortBy"    : ""
+    },
+
+    "support" : {
+        "history"         : "",
+        "issue"           : "",
+        "number"          : "",
+        "selfServiceType" : "",
+        "step"            : "",
+        "terminal"        : ""
+    },
+
+    "system_keys" : {
+        "call" : ""
+    },
+
+    "target" : {
+        "abTest"          : "",
+        "assetAttributes" : "",
+        "assetsLeveraged" : "",
+        "audience"        : "",
+        "campaign"        : "",
+        "engagement"      : {
+            "id"       : "", - AEM
+            "intent"   : kind of flow(ordering, payment etc)
+            "location" : "", - React
+            "offered"  : ""
+        },
+        "evolv"      : "",
+        "experience" : "",
+        "message"    : "",
+        "sandbox"    : "",
+        "offer"      : offer or promotion ID which is being presented to customer
+    },
+
+    "user" : {
+        "account"       : Hashed Account Id
+        "id"            : Customer ID
+        "prospect"      : Hashed Address ID(send only if it is hashed)
+        "session"       : Global Session ID
+        "customerRole"  : "",
+        "customerType"  : "",
+    },
+
+    "utils" : {
+        "athenaSession"  : Pega Session ID
+        "outcome"        : Decision outcome on Offers(Y/N)
+        "pegaOffer"      : Pega Decision promotion/offer ID
+    },
+
+    "event" : {
+
+        "eventInfo":{
+            "value": pageView, AddtoCart, RemovefromCart, checkout, submitorder, Order confirmation etc,
+        }
+
+        "txn" : {
+            "agent" : "Chat agents Enterprise ID",
+            "cartId": "",
+            "product" : {
+
+                "owns" : [{					---Existing Products
+                    "category"        : "",
+                    "discount"        : "", -React/AEM
+                    "line"            : "", -React/AEM
+                    "merchCat"        : "", -React/AEM
+                    "offer"           : "", -React/AEM
+                    "Nonrecurring     : "", -React/AEM
+                    "qty"             : "", -React/AEM
+                    "recurring"       : "", -React/AEM
+                    "sku"             : ""  -React/AEM
+                }],
+
+                "New" : [{
+                    "category"      : "",
+                    "discount"      : "", - AEM/React - Any discount Applied to product/service
+                    "line"          : "", - AEM/React - Hashed MDN associated with product
+                    "merchCat"    : "", - AEM/React - The merch category where the productwas added to cart
+                    "offer"         : "", - AEM/React - Offer applied to product
+                    "Nonrecurring"  : "", - AEM/React - Price of product at add to cart
+                    "tradein"       : "",
+                    "qty"           : "", - AEM/React - Quantity of product in cart
+                    "recurring"     : "", - AEM/React - Any Recurring charges associated with specific product
+                    "sku"           : "" 	- AEM/React - SKU of individual product
+                }],
+            },
+            "offer"            : "", - React - Offer ID when at the order level
+            "tradein"          : "", - React - Trade in $$ amount on order
+            "autopay"          : "",
+            "channel"          : "",
+            "contractType"     : "",
+            "creditApp"        : "",
+            "id"               : Order ID,
+            "orderType"        : Type of Order(Add a line, upgrade etc),
+            "discountId"       : Order Discount ID,
+            "discountPrice"    : Order discount Price,
+            "status"           : Order Status(Incomplete Submit),
+            "total"            : Order Total
+            "onetime"          : "", - React - One time charges today
+            "recurring"        : "", - React - Recurring Charges
+            "shipping"         : "", - React - Shipping Charges for order
+            "tax"              : "", - React - Tax charges for order
+            "paymentType"      : "", - Type of payment used for transaction
+            "price"            : "", - React - $$ Amount for transaction
+            "shippingMethod"   : "", - AEM/React - How is the order being shipped to the customer?  ID of shipping method
+            "shippingZip"      : "", - AEM/React - Zip code order is being shipped to
+            "storeNumber"      : "", - AEM/React - Outlet ID
+        }
+
+    }
+
+
+
+
+
+
+{
+    "cmp": {
+        "all": ""
+    },
+    "system_keys": {
+        "call": ""
+    },
+    "error": {
+        "code": ""
+    },
+    "page": {
+        "channelSession": "982517363",
+        "displayChannel": "OnePos Internal",
+        "flow": "",
+        "linkName": "/iconic/OrderReview|PageLoaded",
+        "name": "/iconic/OrderReview",
+        "sourceChannel": "POS",
+        "type": "",
+        "url": "https://telestore-sqa1.vzwcorp.com/telesales/common/netaceContainer.jsp?pageName=iconic&_requestid=168311"
+    },
+    "event": {
+        "value": ""
+    },
+    "search": {
+        "term": ""
+    },
+    "target": {
+        "offer": "",
+        "engagement": {
+            "intent": "",
+            "Action": ""
+        }
+    },
+    "txn": {
+        "agent": "BRAHMVI",
+        "discount": "",
+        "discountId": "",
+        "id": "",
+        "orderType": "",
+        "product": {
+            "discount": "",
+            "ids": "",
+            "NonrecurringPrice": "",
+            "RecurringPrice ": "",
+            "offerId": ""
+        },
+        "price": "",
+        "discountPrice": "",
+        "status": "",
+        "total": ""
+    },
+    "user": {
+        "account": "",
+        "id": "3473461402",
+        "prospect": "",
+        "session": ""
+    },
+    "utils": {
+        "athenaSession": "",
+        "outcome": "",
+        "pegaOffer": ""
+    }
+}
+
+
+
+
+{
+    "cmp": {
+        "all": ""
+    },
+    "system_keys": {
+        "call": ""
+    },
+    "error": {
+        "code": ""
+    },
+    "page": {
+        "channelSession": "442014063",
+        "displayChannel": "OnePos Internal",
+        "flow": "",
+        "linkName": "/iconic/OrderReview|PageLoaded",
+        "name": "/iconic/OrderReview",
+        "sourceChannel": "POS",
+        "type": "",
+        "url": "https://telestore.vzwcorp.com/telesales/common/netaceContainer.jsp?pageName=iconic&_requestid=420065"
+    },
+    "event": {
+        "value": ""
+    },
+    "search": {
+        "term": ""
+    },
+    "target": {
+        "offer": "",
+        "engagement": {
+            "intent": "",
+            "Action": ""
+        }
+    },
+    "txn": {
+        "agent": "BRAHMVI",
+        "discount": "",
+        "discountId": "",
+        "id": "",
+        "orderType": "",
+        "product": {
+            "discount": "",
+            "ids": "",
+            "NonrecurringPrice": "",
+            "RecurringPrice ": "",
+            "offerId": ""
+        },
+        "price": "",
+        "discountPrice": "",
+        "status": "",
+        "total": ""
+    },
+    "user": {
+        "account": "",
+        "id": "9254640810",
+        "prospect": "",
+        "session": ""
+    },
+    "utils": {
+        "athenaSession": "",
+        "outcome": "",
+        "pegaOffer": ""
+    }
+}

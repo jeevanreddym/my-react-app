@@ -1,0 +1,77 @@
+{
+    "lines": [
+        {
+            "mtn": "2293109311",
+            "name": "The new Verizon Plan",
+            "productId": "plan2880001",
+            "plans": [
+                {
+                    "sorId": "96325",
+                    "bgsaCode": null,
+                    "planName": "THE NEW VERIZON PLAN SMALL 2GB",
+                    "planImage": "https://ss7.vzw.com/is/image/VerizonWireless/S_2gb_0518",
+                    "price": {
+                        "regularPrice": 35,
+                        "discountedPrice": 35
+                    },
+                    "isRecommended": false,
+                    "isSelected": false,
+                    "isShowcase": true,
+                    "skuDisplaySequence": 1,
+                    "isSharedPlan": true,
+                    "dataAllowance": 0,
+                    "messageAllowance": 0,
+                    "voiceAllowance": 0,
+                    "planImageReverse": "https://ss7.vzw.com/is/image/VerizonWireless/S_2gb_0518_reverse",
+                    "reasonForRecommendations": [],
+                    "isParentLineRequired": false,
+                    "isShared": true,
+                    "isRecommended": true,
+                    "isSelected": false,
+                    "productDisplaySequence": 1
+                }
+            ]
+        }
+    ],
+    "account": [
+        {
+            "name": "The new Verizon Plan",
+            "productId": "plan2880001",
+            "plans": [
+                {
+                    "sorId": "96325",
+                    "bgsaCode": null,
+                    "planName": "THE NEW VERIZON PLAN SMALL 2GB",
+                    "planImage": "https://ss7.vzw.com/is/image/VerizonWireless/S_2gb_0518",
+                    "price": {
+                        "regularPrice": 35,
+                        "discountedPrice": 35
+                    },
+                    "eligibleMtns": [],
+                    "isRecommended": false,
+                    "isSelected": false,
+                    "isShowcase": true,
+                    "skuDisplaySequence": 1,
+                    "isSharedPlan": true,
+                    "lineAccessInfo": {
+                        "lineAccess": [
+                            {
+                                "featureId": "84015"
+                            }
+                        ]
+                    },
+                    "dataAllowance": 0,
+                    "messageAllowance": 0,
+                    "voiceAllowance": 0,
+                    "planImageReverse": "https://ss7.vzw.com/is/image/VerizonWireless/S_2gb_0518_reverse",
+                    "reasonForRecommendations": [],
+                    "isParentLineRequired": false,
+                    "isShared": true,
+                    "isRecommended": true,
+                    "isSelected": false,
+                    "productDisplaySequence": 1
+                }
+            ]
+        }
+    ]
+}

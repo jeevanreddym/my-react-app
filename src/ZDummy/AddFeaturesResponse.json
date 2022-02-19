@@ -1,0 +1,48 @@
+{
+    "serviceHeader": {
+        "clientId": "VZW-NETACE",
+        "statusMsg": "PEGA generated message",
+        "correlationId": "69a66ef4d7e344dfb2db299209ea8333",
+        "sessionId": "",
+        "serviceName": "SalesOrderPurchase",
+        "userId": "",
+        "statusCode": 0
+    },
+    "serviceBody": {
+        "serviceRequest": {
+            "context": {
+                "caseId": "SOP-1583186-DEV3",
+                "customerInfo": {
+                    "accountNumber": "07893451230-00001",
+                    "cartCreator": 2515813861,
+                    "processingMTN": 9736239324
+                },
+                "cartInfo": {
+                    "cartId": "8c5fa64a-9811-4eb8-85cd-b5939cae298b",
+                    "action": "UPDATE",
+                    "itemType": "FEATURE",
+                    "intendType": "EUP",
+                    "lines": [
+                        {
+                            "mtn": "2158806687",
+                            "features": [
+                                {
+                                    "id": 82825,
+                                    "actionIndicator": "A",
+                                    "type": "SFO"
+                                }
+                            ]
+                        }
+                    ],
+                    "effectiveDate": ""
+                },
+                "contextInfo": {
+                    "callReason": "SalesOrderPurchase",
+                    "intent": "Upgrade",
+                    "processStep": "FeaturesPDP",
+                    "processAction": "addFeatures"
+                }
+            }
+        }
+    }
+}

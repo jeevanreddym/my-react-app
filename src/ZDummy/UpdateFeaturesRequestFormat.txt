@@ -1,0 +1,80 @@
+
+
+const updatefeaturesReq = {
+	Account: {
+		addFeatures: [
+			{
+				id: 3333,
+				type: 'SPO',
+				actionIndicator: 'A',
+				quantity: 3,
+				mtns:[
+				    {
+				        mtn: '4563458767'
+				    },
+				    {
+                        mtn: '4563458764'
+                    }
+                ]
+			},
+			{
+				id: 5555,
+				type: 'SPO',
+				actionIndicator: 'D',
+				quantity: 1,
+				mtns:[
+                    {
+                        mtn: '4563458767'
+                    },
+                    {
+                        mtn: '4563458764'
+                    }
+                ]
+			}
+		],
+		removeFeatures: [
+			{
+				id: 8906,
+				type: 'SPO',
+				quantity: 1,
+				mtns:[
+                    {
+                        mtn: '4563458767'
+                    },
+                    {
+                        mtn: '4563458764'
+                    }
+                ]
+			}
+		]
+	},
+	lines: [
+		{
+			mtn: '9864887651',
+			addFeatures: [
+				{
+					id: 1234,
+					type: 'SPO',
+					actionIndicator: 'A',
+					quantity: 1
+				},
+				{
+					id: 5678,
+					type: 'SPO',
+					actionIndicator: 'D',
+					quantity: 1
+				}
+			],
+			removeFeatures: [
+				{
+					id: 6754,
+					type: 'SPO',
+					quantity: 1
+				}
+			],
+			subscriptions: [
+
+			]
+		},
+	],
+};

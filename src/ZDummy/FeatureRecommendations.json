@@ -1,0 +1,70 @@
+{
+    "data": {
+        "lines": [
+            {
+                "mtn": "2293109311",
+                "recommendations": [
+                    {
+                        "sorId" : "68877",
+                        "skuDisplaySequence" : 1,
+                        "displayName": "Sku Name",
+                        "type" : "SFO",
+                        "price" : {
+                            "regularPrice":13.08,
+                            "discountedPrice":0.0,
+                            "promos":[]
+                        },
+                        "actionInd" : "Z",
+                        "isExisting" : true
+                    },
+                    {
+                        "sorId" : "68877",
+                        "skuDisplaySequence" : 2,
+                        "type" : "SFO",
+                        "price" : {
+                            "regularPrice":13.08,
+                            "discountedPrice":0.0,
+                            "promos":[]
+                        },
+                        "actionInd" : "D",
+                        "isExisting" : false
+                    }
+                ]
+            },
+            {
+                "mtn": "2293109312",
+                "recommendations": [
+                    {
+                        "sorId" : "68877",
+                        "skuDisplaySequence" : 1,
+                        "type" : "SFO",
+                        "price" : {
+                            "regularPrice":13.08,
+                            "discountedPrice":0.0,
+                            "promos":[]
+                        },
+                        "actionInd" : "",
+                        "isExisting" : true
+                    },
+                    {
+                        "sorId" : "68877",
+                        "skuDisplaySequence" : 2,
+                        "type" : "SFO",
+                        "price" : {
+                            "regularPrice":13.08,
+                            "discountedPrice":0.0,
+                            "promos":[]
+                        },
+                        "actionInd" : "",
+                        "isExisting" : true
+                    }
+                ]
+            }
+        ],
+        "shared": [],
+        "reference": {
+            "products": [],
+            "skus": []
+        }
+    }
+}

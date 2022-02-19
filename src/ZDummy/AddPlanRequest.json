@@ -1,0 +1,28 @@
+{
+    "cartInfo": {
+        "clientAppName": "B2C-TELESALES",
+        "cartId": "8ad35569-f16d-4640-a9d7-b152ee044abd",
+        "caseId": "SOP-526703-E01",
+        "accountNumber": "0502956643-00001",
+        "cartCreator": "4235342870",
+        "processingMTN": "4106278603",
+        "processStep": "PlanSelectionPage",
+        "intendType": "EUP"
+    },
+    "data": {
+        "lines": [
+            {
+                "mtn": "6672108890",
+                "plan": {
+                    "sorId": "96328"
+                }
+            },
+            {
+                "mtn": "4106278603",
+                "plan": {
+                    "sorId": "96328"
+                }
+            }
+        ]
+    }
+}

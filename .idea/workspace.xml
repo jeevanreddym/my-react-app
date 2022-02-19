@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ce7ed50-3f4e-4609-80a2-84a061173c55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1RvWvn6FyRVe5YMBFZCqScapasy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../onevz-static-apps/onevz-custom-fit-app" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\madhje5\AppData\Local\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\madhje5\UI-Workspaces\my-ui-projects\my-first-react-app\src\ZDummy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\madhje5\UI-Workspaces\my-ui-projects\my-first-react-app\src\store\actions" />
+      <recent name="C:\Users\madhje5\UI-Workspaces\my-ui-projects\my-first-react-app\src\container" />
+      <recent name="C:\Users\madhje5\UI-Workspaces\my-ui-projects\my-first-react-app\src\component\Person" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.redux-basics.js">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="redux-basics.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/redux-basics.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.redux-basics.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ce7ed50-3f4e-4609-80a2-84a061173c55" name="Default Changelist" comment="" />
+      <created>1570548282822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570548282822</updated>
+      <workItem from="1570548284354" duration="23831000" />
+      <workItem from="1570715728350" duration="25995000" />
+      <workItem from="1571164845102" duration="7000" />
+      <workItem from="1571174461975" duration="35451000" />
+      <workItem from="1571668985250" duration="33978000" />
+      <workItem from="1571858974083" duration="23529000" />
+      <workItem from="1572968097656" duration="5027000" />
+      <workItem from="1573060374822" duration="1044000" />
+      <workItem from="1573223663583" duration="2115000" />
+      <workItem from="1573569652903" duration="2594000" />
+      <workItem from="1573663962822" duration="601000" />
+      <workItem from="1573770566310" duration="3593000" />
+      <workItem from="1574088575698" duration="1808000" />
+      <workItem from="1574174051282" duration="3156000" />
+      <workItem from="1574697257009" duration="19539000" />
+      <workItem from="1575991291097" duration="4161000" />
+      <workItem from="1576532578798" duration="1933000" />
+      <workItem from="1577495035796" duration="269000" />
+      <workItem from="1577714976148" duration="1319000" />
+      <workItem from="1577736093282" duration="598000" />
+      <workItem from="1578085546016" duration="2779000" />
+      <workItem from="1578326316780" duration="732000" />
+      <workItem from="1578509632433" duration="1488000" />
+      <workItem from="1578676127202" duration="3743000" />
+      <workItem from="1578930469973" duration="609000" />
+      <workItem from="1578941817659" duration="1526000" />
+      <workItem from="1579016483164" duration="5064000" />
+      <workItem from="1579185688156" duration="553000" />
+      <workItem from="1579186713467" duration="2414000" />
+      <workItem from="1579275792612" duration="651000" />
+      <workItem from="1579279194949" duration="1244000" />
+      <workItem from="1579302351391" duration="108000" />
+      <workItem from="1579631756075" duration="1242000" />
+      <workItem from="1579706709116" duration="340000" />
+      <workItem from="1579810738422" duration="23000" />
+      <workItem from="1579810775425" duration="6000" />
+      <workItem from="1580490053260" duration="607000" />
+      <workItem from="1580744833819" duration="2663000" />
+      <workItem from="1580833163728" duration="58000" />
+      <workItem from="1580930915546" duration="2470000" />
+      <workItem from="1584463524322" duration="729000" />
+      <workItem from="1602780164350" duration="671000" />
+      <workItem from="1608503831034" duration="1194000" />
+      <workItem from="1608572971284" duration="3852000" />
+      <workItem from="1608642129536" duration="4287000" />
+      <workItem from="1608734818068" duration="3417000" />
+      <workItem from="1623186346380" duration="644000" />
+      <workItem from="1632767646404" duration="1701000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1608672196856">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1608672196856" />
+  </component>
+</project>

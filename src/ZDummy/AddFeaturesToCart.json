@@ -1,0 +1,121 @@
+{
+    "serviceHeader": {
+        "clientId": "VZW-NETACE",
+        "statusMsg": "PEGA generated message",
+        "correlationId": "69a66ef4d7e344dfb2db299209ea8333",
+        "sessionId": "",
+        "serviceName": "SalesOrderPurchase",
+        "userId": "",
+        "statusCode": "0"
+    },
+    "serviceBody": {
+        "serviceRequest": {
+            "context": {
+                "caseId": "SOP-1583186-DEV3",
+                "customerInfo": {
+                    "accountNumber": "07893451230-00001",
+                    "cartCreator": "2515813861",
+                    "processingMTN": "9736239324"
+                },
+                "cartInfo": {
+                    "cartId": "8c5fa64a-9811-4eb8-85cd-b5939cae298b",
+                    "action": "UPDATE",
+                    "itemType": "FEATURE",
+                    "intendType": "EUP",
+                    "Account": [
+                        {
+                            "addFeatures": [
+                                {
+                                    "id": "1167",
+                                    "actionIndicator": "D",
+                                    "type": "SPO",
+                                    "mtns": [
+                                        {
+                                            "mtn": "4563458762"
+                                        },
+                                        {
+                                            "mtn": "4563458761"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1167",
+                                    "actionIndicator": "D",
+                                    "type": "SPO",
+                                    "mtns": [
+                                        {
+                                            "mtn": "4563458762"
+                                        },
+                                        {
+                                            "mtn": "4563458761"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "removeFeatures": [
+                                {
+                                    "id": "1543",
+                                    "type": "SPO",
+                                    "mtns": [
+                                        {
+                                            "mtn": "4563458762"
+                                        },
+                                        {
+                                            "mtn": "4563458761"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "digitalSecure": [
+                                {
+                                    "itemId": "307220145",
+                                    "pricePlanId": "35550960"
+                                }
+                            ]
+                        }
+                    ],
+                    "lines": [
+                        {
+                            "mtn": "2158806687",
+                            "features": {
+                                "add": [
+                                    {
+                                        "id": "78732",
+                                        "quantity": 1,
+                                        "actionIndicator": "D",
+                                        "type": "SFO"
+                                    },
+                                    {
+                                        "id": "78733",
+                                        "quantity": 1,
+                                        "actionIndicator": "A",
+                                        "type": "SPO"
+                                    }
+                                ],
+                                "remove": [
+                                    {
+                                        "id": "78734",
+                                        "quantity": 1,
+                                        "type": "SPO"
+                                    }
+                                ],
+                                "digitalSecure": [
+                                    {
+                                        "itemId": "307220145",
+                                        "pricePlanId": "35550960"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "contextInfo": {
+                    "callReason": "SalesOrderPurchase",
+                    "intent": "Upgrade/AAL",
+                    "processStep": "FeaturesPDP",
+                    "processAction": "addFeatures"
+                }
+            }
+        }
+    }
+}

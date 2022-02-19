@@ -1,0 +1,600 @@
+{
+    "errors": [
+        {
+            "namespace": "cxp-customerprofile-domain",
+            "name": "API_ERROR",
+            "id": "3998",
+            "debug_id": "2019-12-28T01:00:00.+0000:4e3da12d-9f89-4db1-a3cc-c62fd1eefe3d:cxp-customerprofile-domain-qa-ev6v-qa-nsq2cxp-8fd6945f6-67xrr",
+            "message": "Exception while fetching data (/customer/billAccounts[0]/paymentInfo/isAutoPayEnrolled) : 500 INTERNAL_SERVER_ERROR"
+        },
+        {
+            "namespace": "cxp-customerprofile-domain",
+            "name": "API_ERROR",
+            "id": "3998",
+            "debug_id": "2019-12-28T01:00:00.+0000:4e3da12d-9f89-4db1-a3cc-c62fd1eefe3d:cxp-customerprofile-domain-qa-ev6v-qa-nsq2cxp-8fd6945f6-67xrr",
+            "message": "Exception while fetching data (/customer/billAccounts[0]/paymentInfo/isPaperFreeEnrolled) : 500 INTERNAL_SERVER_ERROR"
+        }
+    ],
+    "meta": {
+        "timestamp": "1577494800127",
+        "cxpCorrelationId": "2019-12-28T01:00:00.+0000:4e3da12d-9f89-4db1-a3cc-c62fd1eefe3d:cxp-customerprofile-domain-qa-ev6v-qa-nsq2cxp-8fd6945f6-67xrr"
+    },
+    "data": {
+        "commonInfo": {
+            "showAccessoryTab": true,
+            "showTradeinTab": true,
+            "showLocalDfillRadioButton": false,
+            "showEnterDeviceToggle": true,
+            "showScanner": true,
+            "showSearchAccessory": false,
+            "showViewPriceBreakdown": false,
+            "showPriceBreakdownTooltip": true,
+            "showDevicePrices": true,
+            "showShipitToggle": true,
+            "showSellersPrice": false,
+            "isIndirect": false,
+            "showSalesRep": true,
+            "isISPUEnabled": false,
+            "showShopMoreDevices": true,
+            "showSecurityDeposit": false,
+            "showViewUpgradeReasonCode": true,
+            "showIneligibleUpgradeLines": true,
+            "showPastDueYesNobutton": true,
+            "maxNewLines": 5,
+            "showAccessoryShipItToggle": true,
+            "showCreditStatus": true,
+            "showEcpdProfile": true,
+            "showHomeServicesReferral": true,
+            "showClickToCall": true,
+            "showIdCheck": true,
+            "showFPFCHeck": true,
+            "showManageDownPayments": true,
+            "showIntegrateWFM": false,
+            "showOrderEffectiveDate": true,
+            "showCartAnalyzer": true,
+            "showNeedHelp": false,
+            "disableDfillRadioButton": false
+        },
+        "customer": {
+            "caseId": "SOP-631244-E01",
+            "cartId": "c38f841c-6c5c-4df8-a568-c372de694b53",
+            "processStep": "GridWallPDP",
+            "availablePaths": [
+                {
+                    "path": "GridWallPDP"
+                }
+            ],
+            "customerId": "203561093",
+            "customerName": {
+                "firstName": "DON",
+                "lastName": "JETER"
+            },
+            "email": "",
+            "lookupMtn": "5708921354",
+            "customerAttributes": {
+                "hasEcpd": true,
+                "autoPayDiscountEligibleCustomerType": true
+            },
+            "billAccounts": [
+                {
+                    "billAccountNo": "1",
+                    "recommendation": {
+                        "recommendedPlan": {
+                            "usageInfo": {
+                                "accountUsageInfo": {
+                                    "dataUsageInfos": [
+                                        {
+                                            "data": "0",
+                                            "totalData": "0",
+                                            "unitOfMeasure": "MB",
+                                            "usagePercentage": "NA"
+                                        },
+                                        {
+                                            "data": "0",
+                                            "totalData": "0",
+                                            "unitOfMeasure": "MB",
+                                            "usagePercentage": "NA"
+                                        }
+                                    ]
+                                }
+                            },
+                            "unbilledAccountUsageInfo": null
+                        }
+                    },
+                    "billCycle": {
+                        "billCycleDate": "12/28/2019",
+                        "remainingDays": "0"
+                    },
+                    "btaInfo": null,
+                    "sharePlan": {
+                        "planId": "94157",
+                        "description": "THE VERIZON PLAN MEDIUM 3GB",
+                        "planImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/M_3gb_0518"
+                    },
+                    "accountOffers": {
+                        "productOffers": []
+                    },
+                    "monthlyTotalsInfo": {
+                        "thisMonthCharge": "35.10",
+                        "thisMonthChargeDateRange": "11/29/2019 - 12/28/2019",
+                        "thisMonthChargeBeforeDiscount": "45.00",
+                        "totalThisMonthCharge": "137.10",
+                        "totalThisMonthChargeBeforeDiscount": "147.00",
+                        "discounts": [
+                            {
+                                "amount": "-9.9",
+                                "description": "THE VERIZON PLAN MEDIUM 3GB"
+                            }
+                        ],
+                        "thisMonthDiscounts": [
+                            {
+                                "amount": "-9.9",
+                                "description": "THE VERIZON PLAN MEDIUM 3GB"
+                            }
+                        ]
+                    },
+                    "accountLevelChangeEligibility": {
+                        "isAddNewLineAllowed": true,
+                        "isBundleChangeAllowed": true,
+                        "isSharePlanChangeAllowed": true,
+                        "pendingOrderDetail": null
+                    },
+                    "paymentInfo": {
+                        "arPastDueBalance": "0.00",
+                        "currentBalance": "88.58",
+                        "isBalancePastDue": false,
+                        "pastDueBalance": "0.00",
+                        "invoiceDate": "08/28/2019",
+                        "isAutoPayEnrolled": null,
+                        "isPaperFreeEnrolled": null,
+                        "recentActivityAmount": "0.00"
+                    },
+                    "accountAttributes": {
+                        "isAutoPayWithPaperless": false,
+                        "mixedPlanCategories": false,
+                        "isOverThreshHold": false
+                    },
+                    "mtns": [
+                        {
+                            "mtn": "5708813721",
+                            "nickName": "DON",
+                            "benefitPair": {
+                                "pairedPhoneMtn": null,
+                                "eligibleToPair": false,
+                                "existingPair": false,
+                                "grantee": false,
+                                "grantor": false
+                            },
+                            "primaryUser": {
+                                "firstName": "DON",
+                                "lastName": "JETER"
+                            },
+                            "mtnStatus": {
+                                "isActive": true,
+                                "isDisconnected": false,
+                                "isSuspendedWithBilling": false,
+                                "isSuspendedWithoutBilling": false,
+                                "isMtnChanged": null,
+                                "isReassigned": null,
+                                "isTransfered": null,
+                                "status": null
+                            },
+                            "equipmentInfos": [
+                                {
+                                    "deviceInfo": {
+                                        "deviceId": "357753072753943",
+                                        "deviceSku": "SMG935VZDA",
+                                        "deviceUrl": "https://ss7.vzw.com/is/image/VerizonWireless/Samsung_Hero2_Gold",
+                                        "modelName": "Samsung Galaxy S7 edge Gold 32GB",
+                                        "category": {
+                                            "smartphone": true,
+                                            "tablet": false,
+                                            "basicphone": false,
+                                            "connectedDevice": false,
+                                            "internetDevice": false,
+                                            "homePC": false,
+                                            "telematics": false,
+                                            "virtualDevice": false,
+                                            "wsonly": false
+                                        },
+                                        "tradeInValue": null,
+                                        "displayName": null
+                                    },
+                                    "simInfo": {
+                                        "simId": "89148000002587781946",
+                                        "simSku": "BULK4FF-NFC-A"
+                                    }
+                                }
+                            ],
+                            "pricePlanInfo": {
+                                "planId": "94157",
+                                "description": "The Verizon Plan Medium 3GB",
+                                "planDisplayName": null,
+                                "planImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/M_3gb_0518",
+                                "planCategoryName": "THE VERIZON PLAN",
+                                "effectiveDate": null,
+                                "planAttributes": {
+                                    "sharePlan": true
+                                },
+                                "accessCharge": null
+                            },
+                            "currentSPOs": [],
+                            "currentFeatures": null,
+                            "equipmentUpgradeEligibility": {
+                                "upgradeEligible": true,
+                                "annualUpgradeEligible": false,
+                                "buyoutEligible": false,
+                                "earlyUpgradeEligible": false,
+                                "transferUpgradeEligible": true,
+                                "transferUpgradeRecepientEligible": true,
+                                "upgradeEligibilityDate": "07/16/2018",
+                                "upgradeEligibilityLabel": "Eligible to device upgrade",
+                                "pendingOrderDetail": null
+                            },
+                            "lineLevelChangeEligibility": {
+                                "isDeviceOnlyChangeAllowed": true,
+                                "isFeatureChangeAllowed": true,
+                                "isLLBChangeAllowed": true,
+                                "isMtnChangeAllowed": true,
+                                "isMtnSuspendAllowed": true,
+                                "isPricePlanChangeAllowed": true,
+                                "pendingOrderDetail": null
+                            },
+                            "monthlyTotalsInfo": {
+                                "thisMonthCharge": "20.00",
+                                "thisMonthChargeBeforeDiscount": "20.00",
+                                "thisMonthDiscounts": [],
+                                "linePlanCharge": null
+                            },
+                            "mobileInfoAttributes": {
+                                "paidInsuranceExist": false
+                            },
+                            "tradeInPromo": null,
+                            "inServiceDate": null,
+                            "lineSharingIndicator": null,
+                            "installmentLoans": null,
+                            "earlyTermination": null
+                        },
+                        {
+                            "mtn": "5708816645",
+                            "nickName": "DON",
+                            "benefitPair": {
+                                "pairedPhoneMtn": null,
+                                "eligibleToPair": false,
+                                "existingPair": false,
+                                "grantee": false,
+                                "grantor": false
+                            },
+                            "primaryUser": {
+                                "firstName": "DON",
+                                "lastName": "JETER"
+                            },
+                            "mtnStatus": {
+                                "isActive": true,
+                                "isDisconnected": false,
+                                "isSuspendedWithBilling": false,
+                                "isSuspendedWithoutBilling": false,
+                                "isMtnChanged": null,
+                                "isReassigned": null,
+                                "isTransfered": null,
+                                "status": null
+                            },
+                            "equipmentInfos": [
+                                {
+                                    "deviceInfo": {
+                                        "deviceId": "357753072787438",
+                                        "deviceSku": "SMG935VZDA",
+                                        "deviceUrl": "https://ss7.vzw.com/is/image/VerizonWireless/Samsung_Hero2_Gold",
+                                        "modelName": "Samsung Galaxy S7 edge Gold 32GB",
+                                        "category": {
+                                            "smartphone": true,
+                                            "tablet": false,
+                                            "basicphone": false,
+                                            "connectedDevice": false,
+                                            "internetDevice": false,
+                                            "homePC": false,
+                                            "telematics": false,
+                                            "virtualDevice": false,
+                                            "wsonly": false
+                                        },
+                                        "tradeInValue": null,
+                                        "displayName": null
+                                    },
+                                    "simInfo": {
+                                        "simId": "89148000002585529917",
+                                        "simSku": "BULK4FF-NFC-A"
+                                    }
+                                }
+                            ],
+                            "pricePlanInfo": {
+                                "planId": "94157",
+                                "description": "The Verizon Plan Medium 3GB",
+                                "planDisplayName": null,
+                                "planImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/M_3gb_0518",
+                                "planCategoryName": "THE VERIZON PLAN",
+                                "effectiveDate": null,
+                                "planAttributes": {
+                                    "sharePlan": true
+                                },
+                                "accessCharge": null
+                            },
+                            "currentSPOs": [],
+                            "currentFeatures": null,
+                            "equipmentUpgradeEligibility": {
+                                "upgradeEligible": true,
+                                "annualUpgradeEligible": false,
+                                "buyoutEligible": false,
+                                "earlyUpgradeEligible": false,
+                                "transferUpgradeEligible": true,
+                                "transferUpgradeRecepientEligible": true,
+                                "upgradeEligibilityDate": "07/16/2018",
+                                "upgradeEligibilityLabel": "Eligible to device upgrade",
+                                "pendingOrderDetail": null
+                            },
+                            "lineLevelChangeEligibility": {
+                                "isDeviceOnlyChangeAllowed": true,
+                                "isFeatureChangeAllowed": true,
+                                "isLLBChangeAllowed": true,
+                                "isMtnChangeAllowed": true,
+                                "isMtnSuspendAllowed": true,
+                                "isPricePlanChangeAllowed": true,
+                                "pendingOrderDetail": null
+                            },
+                            "monthlyTotalsInfo": {
+                                "thisMonthCharge": "20.00",
+                                "thisMonthChargeBeforeDiscount": "20.00",
+                                "thisMonthDiscounts": [],
+                                "linePlanCharge": null
+                            },
+                            "mobileInfoAttributes": {
+                                "paidInsuranceExist": false
+                            },
+                            "tradeInPromo": null,
+                            "inServiceDate": null,
+                            "lineSharingIndicator": null,
+                            "installmentLoans": null,
+                            "earlyTermination": null
+                        },
+                        {
+                            "mtn": "5708921354",
+                            "nickName": "DON",
+                            "benefitPair": {
+                                "pairedPhoneMtn": null,
+                                "eligibleToPair": false,
+                                "existingPair": false,
+                                "grantee": false,
+                                "grantor": false
+                            },
+                            "primaryUser": {
+                                "firstName": "DON",
+                                "lastName": "JETER"
+                            },
+                            "mtnStatus": {
+                                "isActive": true,
+                                "isDisconnected": false,
+                                "isSuspendedWithBilling": false,
+                                "isSuspendedWithoutBilling": false,
+                                "isMtnChanged": null,
+                                "isReassigned": null,
+                                "isTransfered": null,
+                                "status": null
+                            },
+                            "equipmentInfos": [
+                                {
+                                    "deviceInfo": {
+                                        "deviceId": "35338210079229",
+                                        "deviceSku": "LM-V450VMB",
+                                        "deviceUrl": "https://ss7.vzw.com/is/image/VerizonWireless/lg-v50-thinq-5g-black",
+                                        "modelName": "LG V50 THINQ",
+                                        "category": {
+                                            "smartphone": true,
+                                            "tablet": false,
+                                            "basicphone": false,
+                                            "connectedDevice": false,
+                                            "internetDevice": false,
+                                            "homePC": false,
+                                            "telematics": false,
+                                            "virtualDevice": false,
+                                            "wsonly": false
+                                        },
+                                        "tradeInValue": null,
+                                        "displayName": null
+                                    },
+                                    "simInfo": {
+                                        "simId": "89148000005000750513",
+                                        "simSku": "EMBDSIMTRI"
+                                    }
+                                }
+                            ],
+                            "pricePlanInfo": {
+                                "planId": "94157",
+                                "description": "The Verizon Plan Medium 3GB",
+                                "planDisplayName": null,
+                                "planImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/M_3gb_0518",
+                                "planCategoryName": "THE VERIZON PLAN",
+                                "effectiveDate": null,
+                                "planAttributes": {
+                                    "sharePlan": true
+                                },
+                                "accessCharge": null
+                            },
+                            "currentSPOs": [
+                                {
+                                    "spoId": "732",
+                                    "description": "CDMA-LESS ROAM TIER OVERRIDE",
+                                    "price": "0.00"
+                                },
+                                {
+                                    "spoId": "1077",
+                                    "description": "TECH COACH FOR 30 DAYS",
+                                    "price": "0.00"
+                                },
+                                {
+                                    "spoId": "1535",
+                                    "description": "DIGITAL SECURE PROVISIONING",
+                                    "price": "0.00"
+                                }
+                            ],
+                            "currentFeatures": null,
+                            "equipmentUpgradeEligibility": {
+                                "upgradeEligible": true,
+                                "annualUpgradeEligible": false,
+                                "buyoutEligible": false,
+                                "earlyUpgradeEligible": false,
+                                "transferUpgradeEligible": true,
+                                "transferUpgradeRecepientEligible": false,
+                                "upgradeEligibilityDate": "12/04/2019",
+                                "upgradeEligibilityLabel": "Eligible to device upgrade",
+                                "pendingOrderDetail": null
+                            },
+                            "lineLevelChangeEligibility": {
+                                "isDeviceOnlyChangeAllowed": true,
+                                "isFeatureChangeAllowed": true,
+                                "isLLBChangeAllowed": true,
+                                "isMtnChangeAllowed": true,
+                                "isMtnSuspendAllowed": true,
+                                "isPricePlanChangeAllowed": true,
+                                "pendingOrderDetail": null
+                            },
+                            "monthlyTotalsInfo": {
+                                "thisMonthCharge": "37.00",
+                                "thisMonthChargeBeforeDiscount": "37.00",
+                                "thisMonthDiscounts": [],
+                                "linePlanCharge": null
+                            },
+                            "mobileInfoAttributes": {
+                                "paidInsuranceExist": false
+                            },
+                            "tradeInPromo": null,
+                            "inServiceDate": null,
+                            "lineSharingIndicator": null,
+                            "installmentLoans": null,
+                            "earlyTermination": null
+                        },
+                        {
+                            "mtn": "5708921676",
+                            "nickName": "DON",
+                            "benefitPair": {
+                                "pairedPhoneMtn": null,
+                                "eligibleToPair": false,
+                                "existingPair": false,
+                                "grantee": false,
+                                "grantor": false
+                            },
+                            "primaryUser": {
+                                "firstName": "DON",
+                                "lastName": "JETER"
+                            },
+                            "mtnStatus": {
+                                "isActive": true,
+                                "isDisconnected": false,
+                                "isSuspendedWithBilling": false,
+                                "isSuspendedWithoutBilling": false,
+                                "isMtnChanged": null,
+                                "isReassigned": null,
+                                "isTransfered": null,
+                                "status": null
+                            },
+                            "equipmentInfos": [
+                                {
+                                    "deviceInfo": {
+                                        "deviceId": "35860309630654",
+                                        "deviceSku": "SMR815UZKV",
+                                        "deviceUrl": "https://ss7.vzw.com/is/image/VerizonWireless/samsung-watch-black-gs4",
+                                        "modelName": "SAMSUNG GALAXY WATCH BLACK 42MM",
+                                        "category": {
+                                            "smartphone": false,
+                                            "tablet": false,
+                                            "basicphone": false,
+                                            "connectedDevice": true,
+                                            "internetDevice": false,
+                                            "homePC": false,
+                                            "telematics": false,
+                                            "virtualDevice": false,
+                                            "wsonly": false
+                                        },
+                                        "tradeInValue": null,
+                                        "displayName": null
+                                    },
+                                    "simInfo": {
+                                        "simId": "89148000004971699023",
+                                        "simSku": "SOFTSIM-CMR-A"
+                                    }
+                                }
+                            ],
+                            "pricePlanInfo": {
+                                "planId": "94157",
+                                "description": "The Verizon Plan Medium 3GB",
+                                "planDisplayName": null,
+                                "planImageUrl": "https://ss7.vzw.com/is/image/VerizonWireless/M_3gb_0518",
+                                "planCategoryName": "THE VERIZON PLAN",
+                                "effectiveDate": null,
+                                "planAttributes": {
+                                    "sharePlan": true
+                                },
+                                "accessCharge": null
+                            },
+                            "currentSPOs": [
+                                {
+                                    "spoId": "732",
+                                    "description": "CDMA-LESS ROAM TIER OVERRIDE",
+                                    "price": "0.00"
+                                },
+                                {
+                                    "spoId": "1087",
+                                    "description": "HD VIDEO OPTIMIZATION",
+                                    "price": "0.00"
+                                }
+                            ],
+                            "currentFeatures": null,
+                            "equipmentUpgradeEligibility": {
+                                "upgradeEligible": false,
+                                "annualUpgradeEligible": false,
+                                "buyoutEligible": false,
+                                "earlyUpgradeEligible": false,
+                                "transferUpgradeEligible": false,
+                                "transferUpgradeRecepientEligible": true,
+                                "upgradeEligibilityDate": "12/04/2021",
+                                "upgradeEligibilityLabel": "Cannot Upgrade, There is already a pending order for this line.",
+                                "pendingOrderDetail": {
+                                    "createDate": "12/04/2019",
+                                    "effectiveDate": "",
+                                    "description": "UPGRADE",
+                                    "pendingOrderNumber": "188870869"
+                                }
+                            },
+                            "lineLevelChangeEligibility": {
+                                "isDeviceOnlyChangeAllowed": true,
+                                "isFeatureChangeAllowed": true,
+                                "isLLBChangeAllowed": true,
+                                "isMtnChangeAllowed": false,
+                                "isMtnSuspendAllowed": true,
+                                "isPricePlanChangeAllowed": true,
+                                "pendingOrderDetail": {
+                                    "createDate": "12/04/2019",
+                                    "effectiveDate": "",
+                                    "description": "UPGRADE",
+                                    "pendingOrderNumber": "188870869"
+                                }
+                            },
+                            "monthlyTotalsInfo": {
+                                "thisMonthCharge": "25.00",
+                                "thisMonthChargeBeforeDiscount": "25.00",
+                                "thisMonthDiscounts": [],
+                                "linePlanCharge": null
+                            },
+                            "mobileInfoAttributes": {
+                                "paidInsuranceExist": false
+                            },
+                            "tradeInPromo": null,
+                            "inServiceDate": null,
+                            "lineSharingIndicator": null,
+                            "installmentLoans": null,
+                            "earlyTermination": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

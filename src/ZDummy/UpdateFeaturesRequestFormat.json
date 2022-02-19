@@ -1,0 +1,13 @@
+{
+    "data": {
+
+        "errors": [
+            {
+                "namespace": "cxp-customerprofile-domain",
+                "name": "API_ERROR",
+                "id": "3998",
+                "message": "Exception while fetching data (/customer/ecpdProfile) : onevz.cxp.wsclient.ecpd.exception.EcpdException: No profile found for: 736841"
+            }
+        ]
+    }
+}

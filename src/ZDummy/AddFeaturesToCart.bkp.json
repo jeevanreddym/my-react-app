@@ -1,0 +1,182 @@
+{
+    "header": {},
+    "errors": [],
+    "status": 1,
+    "lineLevelExisitingSubscriptions": [],
+    "lineLevelAvailableSubscriptions": [
+        {
+            "sequence": 0,
+            "itemId": "307220145",
+            "itemName": "Digital Secure - Line",
+            "serviceId": null,
+            "collectionType": null,
+            "contentType": "INSTALLATION SERVICES",
+            "contentID": "VZSECURE-LINE",
+            "purchasePrice": 0.0,
+            "pricePlanPackageDetails": [
+                {
+                    "id": "35550961",
+                    "description": "Verizon Secure - Line (1 month free)",
+                    "purchasePrice": 0.0,
+                    "unit": "0",
+                    "length": "-1",
+                    "lengthType": "one-time",
+                    "allowanceRate": "5.0",
+                    "overageCharge": null,
+                    "type": "Subscription with Trial",
+                    "existingSubscription": false,
+                    "origFulfillmentID": null,
+                    "availableCurrentSubscrbtion": false
+                }
+            ],
+            "youtubeSubscription": false
+        }
+    ],
+    "accountLevelExisitingSubscriptions": [],
+    "accountLevelAvailableSubscriptions": [
+        {
+            "subscriptions": [
+                {
+                    "sequence": 0,
+                    "itemId": "307220146",
+                    "itemName": "Digital Secure - Account",
+                    "serviceId": null,
+                    "collectionType": null,
+                    "contentType": "INSTALLATION SERVICES",
+                    "contentID": "VZSECURE-ACCT",
+                    "purchasePrice": 0.0,
+                    "pricePlanPackageDetails": [
+                        {
+                            "id": "35550963",
+                            "description": "Verizon Secure - Account (1 month free)",
+                            "purchasePrice": 0.0,
+                            "unit": "0",
+                            "length": "-1",
+                            "lengthType": "one-time",
+                            "allowanceRate": "10.0",
+                            "overageCharge": null,
+                            "type": "Subscription with Trial",
+                            "existingSubscription": false,
+                            "origFulfillmentID": null,
+                            "availableCurrentSubscrbtion": false
+                        }
+                    ],
+                    "youtubeSubscription": false
+                },
+                {
+                    "sequence": 0,
+                    "itemId": "307231197",
+                    "itemName": "Hum Essentials-Monthly $6/month",
+                    "serviceId": null,
+                    "collectionType": null,
+                    "contentType": "APPLICATN",
+                    "contentID": "1-1AG644P",
+                    "purchasePrice": 0.0,
+                    "pricePlanPackageDetails": [
+                        {
+                            "id": "35554912",
+                            "description": "Hum Essentials - Monthly ($6/month)",
+                            "purchasePrice": 6.0,
+                            "unit": "3",
+                            "length": null,
+                            "lengthType": "month",
+                            "allowanceRate": null,
+                            "overageCharge": null,
+                            "type": null,
+                            "existingSubscription": false,
+                            "origFulfillmentID": null,
+                            "availableCurrentSubscrbtion": false
+                        }
+                    ],
+                    "youtubeSubscription": false
+                },
+                {
+                    "sequence": 0,
+                    "itemId": "307231198",
+                    "itemName": "Hum Essentials-Annual $60/year",
+                    "serviceId": null,
+                    "collectionType": null,
+                    "contentType": "APPLICATN",
+                    "contentID": "1-1AG645S",
+                    "purchasePrice": 0.0,
+                    "pricePlanPackageDetails": [
+                        {
+                            "id": "35554914",
+                            "description": "Hum Essentials - Annual ($60/year)",
+                            "purchasePrice": 60.0,
+                            "unit": "5",
+                            "length": null,
+                            "lengthType": "year",
+                            "allowanceRate": null,
+                            "overageCharge": null,
+                            "type": null,
+                            "existingSubscription": false,
+                            "origFulfillmentID": null,
+                            "availableCurrentSubscrbtion": false
+                        }
+                    ],
+                    "youtubeSubscription": false
+                },
+                {
+                    "sequence": 0,
+                    "itemId": "307231199",
+                    "itemName": "Hum Essentials-Monthly No RSA $4.5/month",
+                    "serviceId": null,
+                    "collectionType": null,
+                    "contentType": "APPLICATN",
+                    "contentID": "1-1AG645B",
+                    "purchasePrice": 0.0,
+                    "pricePlanPackageDetails": [
+                        {
+                            "id": "35554916",
+                            "description": "Hum Essentials - Monthly - No RSA ($4.50/month)",
+                            "purchasePrice": 4.5,
+                            "unit": "3",
+                            "length": null,
+                            "lengthType": "month",
+                            "allowanceRate": null,
+                            "overageCharge": null,
+                            "type": null,
+                            "existingSubscription": false,
+                            "origFulfillmentID": null,
+                            "availableCurrentSubscrbtion": false
+                        }
+                    ],
+                    "youtubeSubscription": false
+                },
+                {
+                    "sequence": 0,
+                    "itemId": "307231200",
+                    "itemName": "Hum Essentials-Annual No RSA $42/year",
+                    "serviceId": null,
+                    "collectionType": null,
+                    "contentType": "APPLICATN",
+                    "contentID": "1-1AG646F",
+                    "purchasePrice": 0.0,
+                    "pricePlanPackageDetails": [
+                        {
+                            "id": "35572410",
+                            "description": "Hum Essentials - Annual - No RSA ($42/year)",
+                            "purchasePrice": 42.0,
+                            "unit": "5",
+                            "length": "-1",
+                            "lengthType": "year",
+                            "allowanceRate": null,
+                            "overageCharge": null,
+                            "type": null,
+                            "existingSubscription": false,
+                            "origFulfillmentID": null,
+                            "availableCurrentSubscrbtion": false
+                        }
+                    ],
+                    "youtubeSubscription": false
+                }
+            ],
+            "errorInfo": {
+                "errormsg": null,
+                "mtn": null
+            }
+        }
+    ],
+    "humDeviceinOrder": false
+}

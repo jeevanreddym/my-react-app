@@ -1,0 +1,97 @@
+Scenario 1
+{
+    "meta": {
+        "user": "quresmu",
+        "client": "CXP"
+    },
+    "data": {
+        "cartId": "8c5fa64a-9811-4eb8-85cd-b5939cae298b",
+        "action": "UPDATE",
+        "itemType": "ACCESSORY",
+        "intendType": "EUP",
+        "lines": [{
+            "mtn": "2158806687",
+            "feature": {
+                "add": [{
+                    "id": "750 GB",
+                    "qty": 1,
+                    "actionIndicator": "D"
+                }],
+                "remove": [{
+                    "id": "1 TB",
+                    "qty": 1
+                },
+                    {
+                        "id": "500 TB",
+                        "qty": 1
+                    }]
+            }
+        }]
+    }
+}
+
+
+Scenario 2
+{
+    "meta": {
+        "user": "quresmu",
+        "client": "CXP"
+    },
+    "data": {
+        "cartId": "8c5fa64a-9811-4eb8-85cd-b5939cae298b",
+        "action": "UPDATE",
+        "itemType": "ACCESSORY",
+        "intendType": "EUP",
+        "lines": [{
+            "mtn": "2158806687",
+            "feature": {
+                "add": [{
+                    "id": "750 GB",
+                    "qty": 1,
+                    "actionIndicator": "D"
+                },
+                    {
+                        "id": "500 GB",
+                        "qty": 1,
+                        "actionIndicator": "A"
+                    }],
+                "remove": [{
+                    "id": "1 TB",
+                    "qty": 1
+                }]
+            }
+        }]
+    }
+}
+
+Scenario 3
+{
+    "meta": {
+        "user": "quresmu",
+        "client": "CXP"
+    },
+    "data": {
+        "cartId": "8c5fa64a-9811-4eb8-85cd-b5939cae298b",
+        "action": "UPDATE",
+        "itemType": "ACCESSORY",
+        "intendType": "EUP",
+        "lines": [{
+            "mtn": "2158806687",
+            "feature": {
+                "add": [],
+                "remove": [{
+                    "id": "750 GB",
+                    "qty": 1
+                },
+                    {
+                        "id": "500 GB",
+                        "qty": 1
+                    }]
+            }
+        }]
+    }
+}
+
+{500,  750, 1}
+add{500}
+remove {750, 1}

@@ -1,0 +1,23 @@
+{
+    "cartInfo": {
+        "clientAppName": "VZW-NETACE",
+        "cartId": "180f91ac-54d9-4092-a5ef-7c9ce91b2a36",
+        "caseId": "SOP-647474-E01",
+        "accountNumber": "0203561093-00001",
+        "cartCreator": "5708816645",
+        "processingMTN": "5708816645",
+        "processStep": "PlanSelection",
+        "intendType": "CPC"
+    },
+    "data": {
+        "lines": [
+            {
+                "mtn": "5708816645",
+                "plan": {
+                    "id": "26872"
+                }
+            }
+        ]
+    }
+}
+

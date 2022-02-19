@@ -1,0 +1,51 @@
+{
+    "header": {
+        "clientAppName": "B2C-TELESALES",
+        "atgCartId": "c8aad865-0ebf-4788-bbda-b7d91b4a5433",
+        "cartId": "c8aad865-0ebf-4788-bbda-b7d91b4a5433"
+    },
+    "errors": [],
+    "status": 1,
+    "ppaEnabled": true,
+    "rtdEnabled": true,
+    "acctZipCode": "23234",
+    "ispuFlow": false,
+    "acctEmailAddr": "EFWFNZM_7999@VZW.COM",
+    "recommendations": {
+        "account": {
+            "plans": [
+                {
+                    "productId": "plan2880001",
+                    "priority": 1,
+                    "isRecommended": true,
+                    "defaultSorId": "96325",
+                    "skus": [
+                        {
+                            "sorId": "96325",
+                            "skuDisplaySequence": 1,
+                            "isRecommended": true,
+                            "isSharedPlan": true,
+                            "price": {
+                                "regularPrice": 35,
+                                "discountedPrice": 35,
+                                "promos": []
+                            },
+                            "reasonForRecommendations": [
+                                "Why we are recommending",
+                                "Looks like you&#39;ve got more data than you need. <br/>"
+                            ],
+                            "eligibleSharePlanMtns": [
+                                "8048406524",
+                                "8044956463",
+                                "8049211994"
+                            ]
+                        }
+                    ],
+                    "isSharedPlan": true
+                }
+            ]
+        },
+        "lines": [],
+        "devicePaymentEligDetails": null
+    }
+}
